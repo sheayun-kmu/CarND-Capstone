@@ -52,7 +52,6 @@ def image(sid, data):
     bridge.publish_camera(data)
 
 if __name__ == '__main__':
-
     # Create socketio WSGI application
     app = socketio.WSGIApp(sio)
 
